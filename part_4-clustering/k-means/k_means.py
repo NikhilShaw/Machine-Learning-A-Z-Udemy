@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # importing the mall data-set
-dataset = pd.read_csv('../data_files/Mall_customers.csv')
+dataset = pd.read_csv('../data_files/Mall_Customers.csv')
 X = dataset.iloc[:, [3, 4]].values
 
 # Using the Elbow method to find the optimal number of clusters
